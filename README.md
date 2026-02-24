@@ -1,4 +1,3 @@
-# iyf-s10-week-01-PURITY-MURIITHI
 # Week 01: Web foundation
 
 ## Author
@@ -18,20 +17,15 @@ This project allowed me to master the core fundamentals of HTML5 and Tailwind CS
 This project is a responsive, multi-page professional portfolio website designed to showcase my journey and technical capabilities as a Data Analyst and developer. It serves as a central digital hub where visitors can explore my background, technical skill set, and past projects while providing a direct channel for professional communication.
 
 ### How to use this:
-
-1. # How to use index.HTML
-   Local Viewing: Open your project folder on your computer and double-click the index.html file. It will launch in your default web browser (like Chrome ), allowing you to see your home page and navigate to other pages like about.html or contact.html.
+## 1. How to use index.HTML
+Local Viewing: Open your project folder on your computer and double-click the index.html file. It will launch in your default web browser (like Chrome ), allowing you to see your home page and navigate to other pages like about.html or contact.html.
 
 Editing: To change the text or images (like "Purity Muriithi"), right-click the file and select "Open with" then choose a code editor like VS Code or Notepad.
 
 Entry Point: In web development, the file named index.html is automatically recognized by web servers and browsers as the "Home" or starting page of your website.
 
-2. # How to use README.md
-   Project Documentation: This file is used to tell others (and your future self) what your project is about. You should write your "Why I built this" and "Challenges faced" sections here.
-
-GitHub Display: When you upload your project to GitHub, the content of this file is automatically displayed on your repository's main page, acting as the front door for anyone viewing your code.
-
-Markdown Formatting: The .md extension stands for Markdown. Use symbols like # for headings and \* for bullet points to make the text look professional and easy to read.
+## 2.How to use README.md
+Project Documentation: This file is used to tell others (and my future self) what this project is about.
 
 ## Technologies Used
 
@@ -62,28 +56,28 @@ Markdown Formatting: The .md extension stands for Markdown. Use symbols like # f
 ### **Technical Skills & Proficiency Levels**
 
 - **HTML5 (Intermediate)**
-- **What I did:** You moved beyond basic tags to use semantic HTML5 elements like `<nav>`, `<section>`, `<header>`, and `<footer>`.
-- **Level:** You have mastered page structure and the ability to organize content logically for both users and search engines.
+- **What I did:** I moved beyond basic tags to use semantic HTML5 elements like `<nav>`, `<section>`, `<header>`, and `<footer>`.
+- **Level:** I have mastered page structure and the ability to organize content logically for both users and search engines.
 
 - **CSS Styling via Tailwind (Intermediate)**
-- **What I did:** You implemented a utility-first workflow using the Tailwind CDN to handle complex layouts, spacing (`py-16`, `px-6`), and modern design trends like gradients (`from-purple-900 to-indigo-800`).
-- **Level:** You can rapidly build professional-grade interfaces without writing custom CSS from scratch.
+- **What I did:** I implemented a utility-first workflow using the Tailwind CDN to handle complex layouts, spacing (`py-16`, `px-6`), and modern design trends like gradients (`from-purple-900 to-indigo-800`).
+- **Level:** I can rapidly build professional-grade interfaces without writing custom CSS from scratch.
 
 - **Responsive Web Design (Advanced Beginner)**
-- **What I did:** You utilized Tailwind’s grid system (`grid-cols-1 md:grid-cols-2`) to ensure your "Skills" and "Projects" sections automatically adapt from mobile phones to desktop screens.
-- **Level:** You understand how to create "mobile-first" designs that work across different devices.
+- **What I did:** I utilized Tailwind’s grid system (`grid-cols-1 md:grid-cols-2`) to ensure my "Skills" and "Projects" sections automatically adapt from mobile phones to desktop screens.
+- **Level:** I understand how to create "mobile-first" designs that work across different devices.
 
 - **Form Development & Validation (Intermediate)**
-- **What I did:** You built a functional contact form using specific input types (`type="email"`) and the `required` attribute to ensure data integrity.
-- **Level:** You are capable of handling basic user input and client-side data validation.
+- **What I did:** I built a functional contact form using specific input types (`type="email"`) and the `required` attribute to ensure data integrity.
+- **Level:** I am capable of handling basic user input and client-side data validation.
 
 - **Deployment & Version Control (Intermediate)**
-- **What I did:** You learned the workflow of initializing a Git repository, committing code, and hosting a live site via GitHub Pages.
+- **What I did:** I learned the workflow of initializing a Git repository, committing code, and hosting a live site via GitHub Pages.
 - **Level:** You understand the full lifecycle of a web project from local development to public launch.
 
 - **UI/UX Design Principles (Advanced Beginner)**
-- **What I did:** You applied consistent navigation across multiple pages, high-contrast color palettes for readability, and interactive hover effects (`hover:scale-105`) to improve user engagement.
-- **Level:** You have a solid grasp of creating intuitive and visually appealing user experiences.
+- **What I did:** I applied consistent navigation across multiple pages, high-contrast color palettes for readability, and interactive hover effects (`hover:scale-105`) to improve user engagement.
+- **Level:** I have a solid grasp of creating intuitive and visually appealing user experiences.
 
 ## Challenges Faced
 
@@ -117,10 +111,7 @@ Markdown Formatting: The .md extension stands for Markdown. Use symbols like # f
 - **Challenge:** Getting the profile image (`GEEK.jpg`) to display correctly with professional styling (rounded borders and shadows).
 - **Solution:** I applied **CSS Masking and Border Utilities**. By using classes like `rounded-full`, `border-4`, and `object-cover`, I ensured that even if the original image wasn't a perfect square, it would render as a professional, centered circular profile picture.
 
-## Screenshots (optional)
-
-![Screenshot description](path/to/screenshot.png)
 
 ## Live Demo (if deployed)
 
-[View Live Demo](https://your-deployed-url.com)
+[View Live Demo](https://github.com/PURITY-MURIITHI/iyf-s10-week-01-PURITY-MURIITHI.git)
