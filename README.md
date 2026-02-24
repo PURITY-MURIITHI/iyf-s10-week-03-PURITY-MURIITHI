@@ -4,7 +4,7 @@
 ## Author
 
 - **Name:** Purity Wanjiku Muriithi
-- **GitHub:** https://github.com/PURITY-MURIITHI/ngushmungai-commits
+- **GitHub:** https://github.com/PURITY-MURIITHI
 - **Date:** 02/24/2026
 
 ## Project Description
