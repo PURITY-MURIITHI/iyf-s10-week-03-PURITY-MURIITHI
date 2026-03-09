@@ -1,0 +1,13 @@
+h1 {
+  color: blue;
+}
+.profile-img {
+  width: 200px;
+  height: 200px;
+}
+.job-title {
+  color: brown;
+}
+#footer {
+  background-color:brown ;
+}
