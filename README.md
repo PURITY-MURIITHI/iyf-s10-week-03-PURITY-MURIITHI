@@ -117,9 +117,6 @@ Solution: Learned to set execution policies to allow custom scripts to run safel
 - [ ] **CI/CD Basics**: Explore GitHub Actions to automatically "lint" or check my code formatting on every push.
 - [ ] **Asset Optimization**: Add a script step to compress images in the `assets/images/` folder automatically.
 
-2. PowerShell Script Execution Policies
-Challenge: Running .ps1 scripts can sometimes be blocked by Windows security policies.
-Solution: Learned to set execution policies to allow custom scripts to run safely during development.
 
 ## Contact
 
