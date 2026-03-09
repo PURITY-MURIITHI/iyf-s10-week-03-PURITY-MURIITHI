@@ -1,120 +1,135 @@
-# Week 01: Web foundation
+# Week 03: Developer tools and Workflow
 
 ## Author
 
 - **Name:** Purity Wanjiku Muriithi
 - **GitHub:** https://github.com/PURITY-MURIITHI
-- **Date:** 02/24/2026
+- **Date:** 09/03/2026
 
 ## Project Description
 
 ### Why I Created This Project
 
-This project allowed me to master the core fundamentals of HTML5 and Tailwind CSS while learning how to structure a multi-page site and deploy a live product to the web. It represents the starting point of my journey to create clean, responsive, and user-friendly digital experiences.
+This week focused on mastering the Command Line Interface (CLI) and Advanced Git Workflows. These tools are the backbone of professional development, allowing for faster project management, automated scripting, and seamless collaboration through GitHub.
 
 ### What I created this project for.
 
-This project is a responsive, multi-page professional portfolio website designed to showcase my journey and technical capabilities as a Data Analyst and developer. It serves as a central digital hub where visitors can explore my background, technical skill set, and past projects while providing a direct channel for professional communication.
+This repository serves as a practical demonstration of my ability to navigate file systems via terminal, automate project setups with PowerShell scripts, and manage complex version control scenarios including branching, merging, and remote synchronization.
 
-### How to use this:
-## 1. How to use index.HTML
-Local Viewing: Open your project folder on your computer and double-click the index.html file. It will launch in your default web browser (like Chrome ), allowing you to see your home page and navigate to other pages like about.html or contact.html.
-
-Editing: To change the text or images (like "Purity Muriithi"), right-click the file and select "Open with" then choose a code editor like VS Code or Notepad.
-
-Entry Point: In web development, the file named index.html is automatically recognized by web servers and browsers as the "Home" or starting page of your website.
-
-## 2.How to use README.md
-Project Documentation: This file is used to tell others (and my future self) what this project is about.
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
+- PowerShell / Bash (Terminal Navigation & Scripting)
+- Git (Version Control)
+- GitHub (Remote Collaboration)
+- Markdown (Documentation)
+
+## Project Structure
+C:.
+```
+├───docs
+├───iyf-s10-week-01-PURITY-MURIITHI
+│   ├───My-New-App
+│   │   └───src
+│   │       ├───css
+│   │       └───js
+│   └───src
+│       └───assets
+│           └───images
+├───My-Awesome-App
+│   ├───docs
+│   ├───src
+│   │   ├───css
+│   │   ├───images
+│   │   └───js
+│   └───tests
+├───My-New-App
+│   ├───docs
+│   ├───src
+│   │   ├───css
+│   │   ├───images
+│   │   └───js
+│   └───tests
+├───src
+│   └───assets
+│       └───images
+├───tests
+└───week03-clone
+    ├───My-New-App
+    │   └───src
+    │       ├───css
+    │       └───js
+    └───src
+        └───assets
+            └───images
+```
+## Screenshot
+
+![AwesomeApp](src/assets/images/awesomeapp.png)
+![AwesomeApp2](src/assets/images/awesomeapp2.png)
+![Gitignore](src/assets/images/gitignore.png)
 
 ## Features
 
-- **Fully Responsive Design** - Works perfectly on desktop, tablet, and mobile devices
-- **Modern UI/UX** - Clean design with smooth transitions and animations
-- **Multiple Pages** - Home, About, Projects, and Contact pages
-- **Mobile Navigation** - Hamburger menu for mobile devices
-- **Contact Form** - Functional contact form with validation
-- **Project Showcase** - Grid layout displaying portfolio projects
-- **Skills Display** - Visual skill bars showing proficiency levels
-- **Social Media Links** - Connect via GitHub, LinkedIn, and Twitter
+✅ CLI Proficiency - Full directory management without a GUI.
+✅ Automated Workflow - Custom PowerShell script for instant project scaffolding.
+✅ Branching Strategy - Managed feature development using isolated Git branches.
+✅ Remote Synchronization - Demonstrated push, pull, and clone workflows.
+✅ Environment Protection - Implemented .gitignore to keep repositories clean.
+
 
 ## How to Run
 
-1. Clone this repository
-2. Open `index.html` in your browser
-   OR
-   Run `npm install` then `npm start`
+1. Clone the repo: git clone https://github.com/PURITY-MURIITHI/iyf-s10-week-03-PURITY-MURIITHI.git
+2. Run Script: Execute .\new-project.ps1 -ProjectName "My-Awesome-App" to see the automation in action.
+3. Verify Git: Run git log --oneline to view the full version history of this tasks.
 
-## Lessons Learned
+## Lessons Learnt
 
 ### **Technical Skills & Proficiency Levels**
 
-- **HTML5 (Intermediate)**
-- **What I did:** I moved beyond basic tags to use semantic HTML5 elements like `<nav>`, `<section>`, `<header>`, and `<footer>`.
-- **Level:** I have mastered page structure and the ability to organize content logically for both users and search engines.
+- Terminal Navigation 
+What I did: Managed files entirely via PowerShell using cd, mkdir -p, and ls. I practiced moving and renaming assets like purity.jpg using CLI commands.
 
-- **CSS Styling via Tailwind (Intermediate)**
-- **What I did:** I implemented a utility-first workflow using the Tailwind CDN to handle complex layouts, spacing (`py-16`, `px-6`), and modern design trends like gradients (`from-purple-900 to-indigo-800`).
-- **Level:** I can rapidly build professional-grade interfaces without writing custom CSS from scratch.
+- Shell Scripting 
+What I did: Wrote a new-project.ps1 script to automate the creation of standardized project structures, saving time on setup.
 
-- **Responsive Web Design (Advanced Beginner)**
-- **What I did:** I utilized Tailwind’s grid system (`grid-cols-1 md:grid-cols-2`) to ensure my "Skills" and "Projects" sections automatically adapt from mobile phones to desktop screens.
-- **Level:** I understand how to create "mobile-first" designs that work across different devices.
+- Git Branching & Merging 
+What I did: Used git checkout -b to develop features in isolation and merged them into main after resolving simulated conflicts.
 
-- **Form Development & Validation (Intermediate)**
-- **What I did:** I built a functional contact form using specific input types (`type="email"`) and the `required` attribute to ensure data integrity.
-- **Level:** I am capable of handling basic user input and client-side data validation.
+- Remote Workflow 
+What I did: Mastered the git remote -v and git pull sequence to synchronize work between a local environment and a "simulated collaborator" (cloned folder).
 
-- **Deployment & Version Control (Intermediate)**
-- **What I did:** I learned the workflow of initializing a Git repository, committing code, and hosting a live site via GitHub Pages.
-- **Level:** I understand the full lifecycle of a web project from local development to public launch.
+### Challenges Faced
 
-- **UI/UX Design Principles (Advanced Beginner)**
-- **What I did:** I applied consistent navigation across multiple pages, high-contrast color palettes for readability, and interactive hover effects (`hover:scale-105`) to improve user engagement.
-- **Level:** I have a solid grasp of creating intuitive and visually appealing user experiences.
+1. Duplicate File Extensions
+Challenge: An asset was incorrectly named purity.jpg.jpeg, causing confusion in the file path.
+Solution: Used the PowerShell command Rename-Item to clean the extension to a standard .jpeg format for better code referencing.
 
-## Challenges Faced
+2. PowerShell Script Execution Policies
+Challenge: Running .ps1 scripts can sometimes be blocked by Windows security policies.
+Solution: Learned to set execution policies to allow custom scripts to run safely during development.
 
-### **1. Rendering Styles and Library Integration**
+## Future Improvements
 
-- **Challenge:** Initially, the HTML document was using Tailwind CSS classes like `bg-indigo-900` and `text-pink-400`, but the browser was rendering them as plain text without any styling.
-- **Solution:** I integrated the **Tailwind CSS CDN** within the `<head>` section of my documents. This allowed the browser to fetch the necessary CSS framework before rendering the body, ensuring all utility classes were applied correctly.
-
-### **2. Transitioning from Single-Page to Multi-Page Architecture**
-
-- **Challenge:** Moving from a single-file structure to a four-page site (`index.html`, `about.html`, `projects.html`, `contact.html`) required maintaining a consistent user experience and navigation.
-- **Solution:** I implemented **Semantic Navigation** by creating a unified `<nav>` component used across all pages. I also updated local anchor links (e.g., `#about`) to absolute file paths (e.g., `about.html`) to ensure the menu worked correctly from any page on the site.
-
-### **3. Layout Responsiveness and Grid Logic**
-
-- **Challenge:** Displaying "Skills" and "Projects" in a way that looked good on both mobile phones and desktop monitors was difficult with standard CSS.
-- **Solution:** I utilized **Tailwind’s Responsive Grid System**. By applying classes like `grid-cols-1 md:grid-cols-2`, I solved the layout issue by forcing a single column on small screens and automatically expanding to multiple columns on larger screens.
-
-### **4. Syntax Errors and Browser Parsing**
-
-- **Challenge:** Small errors in HTML syntax, such as using incorrect tags like `<title h1>` or leaving stray characters like `|` outside of the body, could cause unpredictable rendering or SEO issues.
-- **Solution:** I performed a **Code Audit and Cleanup**, fixing the `<title>` tags and removing stray symbols to ensure the HTML was "well-formed" and followed W3C standards.
-
-### **5. Data Integrity and User Input**
-
-- **Challenge:** Creating a contact form that could potentially be submitted empty or with invalid email addresses.
-- **Solution:** I implemented **Client-Side Validation** by adding the `required` attribute and using specific HTML5 input types like `type="email"`. This ensures the browser warns the user to fix their input before the form is ever sent.
-
-### **6. Asset Management (Image Rendering)**
-
-- **Challenge:** Getting the profile image (`src/assets/images/purity.jpg.jpeg`) to display correctly with professional styling (rounded borders and shadows).
-- **Solution:** I applied **CSS Masking and Border Utilities**. By using classes like `rounded-full`, `border-4`, and `object-cover`, I ensured that even if the original image wasn't a perfect square, it would render as a professional, centered circular profile picture.
+- [ ] **Enhance Setup Script**: Add automatic `git init` and an initial commit to `new-project.ps1`.
+- [ ] **Git Shortcuts**: Create PowerShell aliases for frequent commands like `git status` and `git pull`.
+- [ ] **CI/CD Basics**: Explore GitHub Actions to automatically "lint" or check my code formatting on every push.
+- [ ] **Asset Optimization**: Add a script step to compress images in the `assets/images/` folder automatically.
 
 
-## Live Demo (if deployed)
+## Contact
 
-[View Live Demo](https://github.com/PURITY-MURIITHI/iyf-s10-week-01-PURITY-MURIITHI.git)
-This portfolio demonstrates terminal and Git mastery.
+- Email: muriithipurity28@gmail.com
+- LinkedIn: [Purity Muriithi](www.linkedin.com/in/purity-muriithi-295955212
+)
+- GitHub: [@PURITY-MURIITHI](https://github.com/PURITY-MURIITHI)
 
-Conflict Resolved: Kept Version B logic.
+## Live Demo
+
+[View Live Demo](https://github.com/PURITY-MURIITHI/iyf-s10-week-03-PURITY-MURIITHI.git)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
